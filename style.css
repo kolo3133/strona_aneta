@@ -34,7 +34,9 @@ body {
   font-size: 3.6rem;
   text-transform: uppercase;
 }
-
+.top-caption {
+  text-transform: uppercase;
+}
 /* TO TOP BUTTON*/
 
 .progress-wrap {
@@ -223,4 +225,20 @@ header {
   p {
     font-size: 0.8rem;
   }
+}
+
+/* GALERIA */
+
+.gallery-img {
+  width: 50%;
+  min-height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-clip: border-box;
+}
+
+.gallery-block {
+  min-height: 400px;
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
